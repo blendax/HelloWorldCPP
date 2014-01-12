@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C48402EC1874B106005B5CD9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48402EB1874B106005B5CD9 /* main.cpp */; };
 		C48402EE1874B106005B5CD9 /* HelloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C48402ED1874B106005B5CD9 /* HelloWorld.1 */; };
+		C48402F6187D5740005B5CD9 /* Shared.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48402F4187D5740005B5CD9 /* Shared.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		C48402E81874B106005B5CD9 /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48402EB1874B106005B5CD9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C48402ED1874B106005B5CD9 /* HelloWorld.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloWorld.1; sourceTree = "<group>"; };
+		C48402F4187D5740005B5CD9 /* Shared.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Shared.cpp; path = ../Shared.cpp; sourceTree = "<group>"; };
+		C48402F5187D5740005B5CD9 /* Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shared.h; path = ../Shared.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		C48402EA1874B106005B5CD9 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				C48402F4187D5740005B5CD9 /* Shared.cpp */,
+				C48402F5187D5740005B5CD9 /* Shared.h */,
 				C48402EB1874B106005B5CD9 /* main.cpp */,
 				C48402ED1874B106005B5CD9 /* HelloWorld.1 */,
 			);
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48402F6187D5740005B5CD9 /* Shared.cpp in Sources */,
 				C48402EC1874B106005B5CD9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +231,7 @@
 				C48402F31874B106005B5CD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
