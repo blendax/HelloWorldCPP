@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFFA13052BABBE86D9665F66 /* NewCppClassFromAppCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFFA18EB81AFFB82BB2113AA /* NewCppClassFromAppCode.cpp */; };
 		C48402EC1874B106005B5CD9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48402EB1874B106005B5CD9 /* main.cpp */; };
 		C48402EE1874B106005B5CD9 /* HelloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C48402ED1874B106005B5CD9 /* HelloWorld.1 */; };
 		C48402F6187D5740005B5CD9 /* Shared.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48402F4187D5740005B5CD9 /* Shared.cpp */; };
+		C48402F9188312AA005B5CD9 /* Calculate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48402F7188312AA005B5CD9 /* Calculate.cpp */; };
+		C48402FF18833C54005B5CD9 /* FirstClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C48402FD18833C54005B5CD9 /* FirstClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +29,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BFFA1488BBBD29B19EC51C86 /* NewCppClassFromAppCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCppClassFromAppCode.h; sourceTree = "<group>"; };
+		BFFA18EB81AFFB82BB2113AA /* NewCppClassFromAppCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NewCppClassFromAppCode.cpp; sourceTree = "<group>"; };
 		C48402E81874B106005B5CD9 /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48402EB1874B106005B5CD9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C48402ED1874B106005B5CD9 /* HelloWorld.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloWorld.1; sourceTree = "<group>"; };
 		C48402F4187D5740005B5CD9 /* Shared.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Shared.cpp; path = ../Shared.cpp; sourceTree = "<group>"; };
 		C48402F5187D5740005B5CD9 /* Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shared.h; path = ../Shared.h; sourceTree = "<group>"; };
+		C48402F7188312AA005B5CD9 /* Calculate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Calculate.cpp; sourceTree = "<group>"; };
+		C48402F8188312AA005B5CD9 /* Calculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculate.h; sourceTree = "<group>"; };
+		C48402FD18833C54005B5CD9 /* FirstClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FirstClass.cpp; sourceTree = "<group>"; };
+		C48402FE18833C54005B5CD9 /* FirstClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				C48402F5187D5740005B5CD9 /* Shared.h */,
 				C48402EB1874B106005B5CD9 /* main.cpp */,
 				C48402ED1874B106005B5CD9 /* HelloWorld.1 */,
+				C48402F7188312AA005B5CD9 /* Calculate.cpp */,
+				C48402F8188312AA005B5CD9 /* Calculate.h */,
+				C48402FD18833C54005B5CD9 /* FirstClass.cpp */,
+				C48402FE18833C54005B5CD9 /* FirstClass.h */,
+				BFFA18EB81AFFB82BB2113AA /* NewCppClassFromAppCode.cpp */,
+				BFFA1488BBBD29B19EC51C86 /* NewCppClassFromAppCode.h */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -123,7 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48402F6187D5740005B5CD9 /* Shared.cpp in Sources */,
+				C48402FF18833C54005B5CD9 /* FirstClass.cpp in Sources */,
+				C48402F9188312AA005B5CD9 /* Calculate.cpp in Sources */,
 				C48402EC1874B106005B5CD9 /* main.cpp in Sources */,
+				BFFA13052BABBE86D9665F66 /* NewCppClassFromAppCode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
